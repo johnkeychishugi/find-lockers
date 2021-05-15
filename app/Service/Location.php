@@ -4,13 +4,13 @@ namespace App\Service;
 
 use App\Models\Location as ModelsLocation;
 
-Class Location
+class Location
 {
-    public static function searchByName(string $name) : array
+    public static function searchByName(string $name): array
     {
-         dd(ModelsLocation::where('name','like',$name)
-                             ->with('lockers')
-                             ->get()
-                             ->toArray());
+        return ModelsLocation::where('name', 'like', $name)
+            ->with('lockers')
+            ->get()
+            ->toArray();
     }
 }
