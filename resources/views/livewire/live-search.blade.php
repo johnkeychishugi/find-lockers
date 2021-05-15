@@ -16,16 +16,16 @@
     <div wire:loading>
         Loading...
     </div>
-    @if (count($contacts) > 0)
+    @if ($location)
         <div class="list-group mt-2">
-            @foreach ($contacts as $contact)
+            @foreach ($location->lockers as $locker)
                 <div class="list-group-item list-group-item-action">
                     <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">{{ $contact['name'] }}</h5>
-                        <small class="text-muted">{{ $contact['address'] }}</small>
+                        <h5 class="mb-1">{{ $locker['name'] }}</h5>
+                        <small class="text-muted">{{ $locker['description'] }}</small>
                     </div>
-                    {{-- <p class="mb-1">{{ $contact['city'] }}</p>
-   				<small class="text-muted">{{ $contact['phone'] }}</small> --}}
+                    <p class="mb-1">{{ $locker['available'] }} available</p>
+                    <small class="text-muted">N{{ $locker['price'] }} for the first rent</small>
                 </div>
             @endforeach
         </div>
