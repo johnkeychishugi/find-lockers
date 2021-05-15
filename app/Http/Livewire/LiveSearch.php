@@ -8,7 +8,7 @@ use Livewire\Component;
 class LiveSearch extends Component
 {
     public $name;
-	public $contacts = [];
+	public $location = [];
 	public $loading = false;
 
     public function updatedName($value)
@@ -16,13 +16,13 @@ class LiveSearch extends Component
         if(!empty($this->name)){
 			sleep(1);
 			
-			$results = $this->contacts = Location::searchByName($value);
+			$results = $this->location = Location::searchByName($value);
 
 			if(empty($results)){
-				session()->flash('message','No contact matching '.$this->name. '.');
+				session()->flash('message','No location matching '.$this->name. '.');
 			}
 
-		    $this->contacts = $results;
+		    $this->location = $results;
 		}	
     }
 
