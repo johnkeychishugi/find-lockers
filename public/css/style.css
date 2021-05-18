@@ -61,3 +61,12 @@ body {
     font-weight: bold;    
     color:black!important;
 }
+.paybill {
+   background-color: rgba(121, 117, 117, 0.6);
+   border-radius: 25px;
+}
+
+.paybill a {
+    color: #fff!important;
+    font-size: 14px;
+ }
