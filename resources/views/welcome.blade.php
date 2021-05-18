@@ -25,17 +25,20 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav nav-list">
             <li class="nav-item">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Find a Locker</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#">Size Guide</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Disabled</a>
+              <a class="nav-link" href="#">Locations</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Help Center</a>
+              </li>
           </ul>
         </div>
       </nav>
