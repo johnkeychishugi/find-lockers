@@ -57,6 +57,7 @@ body {
     background-color: #d4af27
 }
 
-.nav-list li a{
-    color: white;
+.nav-list a{
+    font-weight: bold;    
+    color:black!important;
 }
