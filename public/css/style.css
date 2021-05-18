@@ -57,16 +57,37 @@ body {
     background-color: #d4af27
 }
 
-.nav-list a{
-    font-weight: bold;    
-    color:black!important;
+.nav-list a {
+    font-weight: bold;
+    color: black !important;
 }
+
 .paybill {
-   background-color: rgba(121, 117, 117, 0.6);
-   border-radius: 25px;
+    background-color: rgba(121, 117, 117, 0.6);
+    border-radius: 25px;
 }
 
 .paybill a {
-    color: #fff!important;
+    color: #fff !important;
     font-size: 14px;
- }
+}
+
+.first-block {
+    height: 350px;
+    background-image: url("/images/bg2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.locker-search{
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+.locker-search h1{
+    font-weight: bold;
+    font-size: 50px;
+   
+}
