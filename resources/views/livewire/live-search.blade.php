@@ -1,5 +1,5 @@
 <div>
-    <h1>Find a Lockers</h1>
+    <h1>Find a Locker</h1>
 
     @if (session()->has('message'))
         <div class="alert alert-info">
@@ -7,8 +7,8 @@
         </div>
     @endif
     <div class="input-group mb-3">
-        <input type="text" wire:model.debounce.500ms="name" class="form-control" placeholder="Find a contact" id=""
-            aria-label="Find a contact" aria-describedby="basic-addon2" autocomplete="off">
+        <input type="text" wire:model.debounce.500ms="name" class="form-control" placeholder="Enter City or State" id=""
+            aria-label="Enter City or State" aria-describedby="basic-addon2" autocomplete="off">
         <div class="input-group-append">
             <span class="input-group-text" id="basic-addon2">Search</span>
         </div>
