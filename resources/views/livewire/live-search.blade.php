@@ -30,8 +30,7 @@
     </div>
     <div class="row second-box">
         <div class="col-md-6 available">
-            <p>6 Open Lockers Available
-            </p>
+            <p> &nbsp; &nbsp; &nbsp; &nbsp;6 Open Lockers Available</p>
         </div>
         <div class="col-md-6">
             <div class="row sorted">
@@ -40,9 +39,7 @@
                 </div>
                 <div class="col-md-5">
                     <select class="form-control form-control-sm">
-                        <option value="">Lowest Price</option>
-                        <option value="">Lowest Price</option>
-                        <option value="">Lowest Price</option>
+                        <option value="">Closest</option>
                         <option value="">Lowest Price</option>
                     </select>
                 </div>
@@ -50,11 +47,34 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-3 mt-3 left-box">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo reprehenderit quibusdam dolore quos reiciendis odit, quae minima 
-                modi saepe eaque assumenda id velit repudiandae dignissimos. Perspiciatis iure vitae mollitia neque!</p>
-        </div>
-        <div class="col-md-8  mt-3">
+        <div class="col-md-2 mt-3 left-box">
+            <img src="{{ asset('images/person1.jpeg') }}" alt="Locker open by a person" width="230px" height="210px">
+            <p class="box-stars">
+                <a href="">22A Adeola Odeku Street, VI,Lagos.</a><br>
+                <span class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </span> <br>
+                <a href="">0.3 Miles Away</a>
+            </p>
+        </div><br>
+        <div class="col-md-9  mt-3">
+            <div class="row">
+                <div class="col-md-6">
+                    <select class="form-control form-control-sm">
+                        <option value="">Featured</option>
+                        <option value="">Small</option>
+                        <option value="">Medium</option>
+                        <option value="">Large</option>
+                    </select>
+                </div>
+                <div class="col-md-6 view-guide">
+                    <p><a href="">View the guide size</a></p>
+                </div>
+            </div>
             @if ($location)
                 <div class="list-group">
                     @foreach ($location->lockers as $locker)
