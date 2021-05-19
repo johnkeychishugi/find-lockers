@@ -23,7 +23,7 @@
                     </div>
                 </div>
             </div>
-            <div wire:loading style="color: red">
+            <div wire:loading class="load">
                 Loading...
             </div>
         </div>
