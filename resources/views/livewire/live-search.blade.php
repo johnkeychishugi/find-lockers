@@ -30,8 +30,7 @@
     </div>
     <div class="row second-box">
         <div class="col-md-6 available">
-            <p>6 Open Lockers Available
-            </p>
+            <p> &nbsp; &nbsp; &nbsp; &nbsp;6 Open Lockers Available</p>
         </div>
         <div class="col-md-6">
             <div class="row sorted">
@@ -52,7 +51,8 @@
     <div class="row">
         <div class="col-md-2 mt-3 left-box">
             <img src="{{ asset('images/person1.jpeg') }}" alt="Locker open by a person" width="230px" height="210px">
-            <p><a href="">22A Adeola Odeku Street, VI,Lagos.</a><br>
+            <p class="box-stars">
+                <a href="">22A Adeola Odeku Street, VI,Lagos.</a><br>
                 <span class="stars">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>

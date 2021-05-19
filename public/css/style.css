@@ -180,6 +180,10 @@ body {
     text-decoration: none;
 }
 
+.left-box .box-stars{
+    margin-left:20px ;
+}
+
 .left-box .stars{
     color: red;
     font-size: 20px;
