@@ -50,11 +50,20 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-3 mt-3 left-box">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo reprehenderit quibusdam dolore quos reiciendis odit, quae minima 
-                modi saepe eaque assumenda id velit repudiandae dignissimos. Perspiciatis iure vitae mollitia neque!</p>
+        <div class="col-md-2 mt-3 left-box">
+            <img src="{{ asset('images/person1.jpeg') }}" alt="Locker open by a person" width="230px" height="210px">
+            <p><a href="">22A Adeola Odeku Street, VI,Lagos.</a><br>
+                <span class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </span> <br>
+                <a href="">0.3 Miles Away</a>
+            </p>
         </div>
-        <div class="col-md-8  mt-3">
+        <div class="col-md-9  mt-3">
             @if ($location)
                 <div class="list-group">
                     @foreach ($location->lockers as $locker)

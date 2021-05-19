@@ -4,6 +4,7 @@ body {
     font-weight: 100;
     height: 100%;
     margin: 0;
+    background-color: #fff;
 }
 
 .gradient {
@@ -168,4 +169,18 @@ body {
 
 .available {
     margin-top: 15px;
+}
+
+.left-box {
+    margin-left: 20px;
+}
+
+.left-box p a{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.left-box .stars{
+    color: red;
+    font-size: 20px;
 }
