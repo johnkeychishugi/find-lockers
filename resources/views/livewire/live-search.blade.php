@@ -14,10 +14,12 @@
                         placeholder="Enter City or State" id="" aria-label="Enter City or State"
                         aria-describedby="basic-addon2" autocomplete="off">
                     <div class="box-btn">
-                        <p>
-                            <b> Find Locker </b><br>
+                        <div>
+                            <b> Find Locker </b>
+                        </div>
+                        <div class="text-btn">
                             <span>One Naira For Rent</span>
-                         </p>
+                        </div>
                     </div>
                 </div>
             </div>
