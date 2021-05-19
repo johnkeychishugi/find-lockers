@@ -78,28 +78,28 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-   
+
 }
 
-.locker-search{
+.locker-search {
     margin-top: 80px;
     margin-left: 40px;
 }
 
-.locker-search h1{
+.locker-search h1 {
     font-weight: bold;
     font-size: 50px;
-   
+
 }
 
-.input-box{
+.input-box {
     padding-left: 20px;
     padding-bottom: 10px;
     background-color: rgb(255, 255, 255);
     border-radius: 1px;
 }
 
-.box-text{
+.box-text {
     border: none;
 }
 
@@ -107,6 +107,7 @@ body {
     outline: none !important;
     box-shadow: none;
 }
+
 .box-btn {
     margin-top: 10px;
     margin-right: 20px;
@@ -114,36 +115,61 @@ body {
     cursor: pointer;
 }
 
-.box-btn div{
+.box-btn div {
     padding-top: 1px;
     padding-right: 40px;
     padding-left: 40px;
     padding-bottom: 1px;
-    background-color:#ED6F33;
+    background-color: #ED6F33;
     text-align: center;
     border-radius: 2px;
 }
 
-.box-btn  b{
+.box-btn b {
     font-size: 20px;
     font-weight: bold;
     color: #fff;
 
 }
 
-.box-btn span{
+.box-btn span {
     font-size: 11px;
     background-color: #fff;
     color: #ED6F33;
-    font-weight: bold;     
+    font-weight: bold;
 }
 
-.box-btn .text-btn{
+.box-btn .text-btn {
     margin-top: -15px;
 }
 
-.load{
+.load {
     color: crimson;
     font-size: 20px;
     font-weight: bold;
+}
+
+.second-box {
+    background-color: rgba(216, 211, 211, 0.7);
+}
+
+.second-box div {
+    padding: 7px;
+}
+
+.second-box div p {
+    padding-left: 25px;
+    font-weight: bold;
+}
+
+.sorted .sorted-by p {
+    float: right;
+}
+
+.available {
+    margin-top: 15px;
+}
+
+.left-box {
+    
 }
