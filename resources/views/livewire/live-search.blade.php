@@ -9,16 +9,19 @@
                         {{ session('message') }}
                     </div>
                 @endif
-                <div class="input-group mb-5">
-                    <input type="text" wire:model.debounce.500ms="name" class="form-control"
+                <div class="input-group mb-5 input-box">
+                    <input type="text" wire:model.debounce.500ms="name" class="form-control box-text"
                         placeholder="Enter City or State" id="" aria-label="Enter City or State"
                         aria-describedby="basic-addon2" autocomplete="off">
-                    <div class="input-group-append">
-                        <span class="input-group-text" id="basic-addon2">Search</span>
+                    <div class="box-btn">
+                        <p>
+                            <b> Find Locker </b><br>
+                            <span>One Naira For Rent</span>
+                         </p>
                     </div>
                 </div>
             </div>
-            <div wire:loading>
+            <div wire:loading style="color: red">
                 Loading...
             </div>
         </div>
