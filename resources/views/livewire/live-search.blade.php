@@ -39,9 +39,7 @@
                 </div>
                 <div class="col-md-5">
                     <select class="form-control form-control-sm">
-                        <option value="">Lowest Price</option>
-                        <option value="">Lowest Price</option>
-                        <option value="">Lowest Price</option>
+                        <option value="">Closest</option>
                         <option value="">Lowest Price</option>
                     </select>
                 </div>
@@ -62,8 +60,21 @@
                 </span> <br>
                 <a href="">0.3 Miles Away</a>
             </p>
-        </div>
+        </div><br>
         <div class="col-md-9  mt-3">
+            <div class="row">
+                <div class="col-md-6">
+                    <select class="form-control form-control-sm">
+                        <option value="">Featured</option>
+                        <option value="">Small</option>
+                        <option value="">Medium</option>
+                        <option value="">Large</option>
+                    </select>
+                </div>
+                <div class="col-md-6 view-guide">
+                    <p><a href="">View the guide size</a></p>
+                </div>
+            </div>
             @if ($location)
                 <div class="list-group">
                     @foreach ($location->lockers as $locker)

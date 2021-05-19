@@ -188,3 +188,13 @@ body {
     color: red;
     font-size: 20px;
 }
+
+.view-guide p {
+  float: right;
+}
+
+.view-guide p a {
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px solid #037AFB;
+  }
