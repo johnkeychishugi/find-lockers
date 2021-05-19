@@ -91,3 +91,51 @@ body {
     font-size: 50px;
    
 }
+
+.input-box{
+    padding-left: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1px;
+}
+
+.box-text{
+    border: none;
+
+}
+
+.box-text:focus {
+    outline: none !important;
+    box-shadow: none;
+}
+.box-btn {
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.box-btn p{
+    padding-top: 1px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 1px;
+    background-color:#ED6F33;
+    text-align: center;
+    position: relative;
+}
+
+.box-btn p b{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    border: 2px solid rgb(133, 15, 15); 
+
+}
+
+.box-btn p span{
+    font-size: 12px;
+    background-color: #fff;
+    color: #ED6F33;
+    font-weight: bold;   
+    border: 2px solid black;
+    margin-bottom: 15px !important;
+
+}
