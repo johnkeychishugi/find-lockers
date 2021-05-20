@@ -225,3 +225,11 @@ body {
       color: crimson;
       font-size: 17px;
   }
+
+  .text-description{
+      width: 300px;
+  }
+
+  .list-result h5{
+      width: 200px;
+  }

@@ -21,7 +21,8 @@
     </div>
     <div class="row second-box">
         <div class="col-md-6 available">
-            <p> &nbsp; &nbsp; &nbsp; &nbsp;6 Open Lockers Available</p>
+            <p> &nbsp; &nbsp; &nbsp; &nbsp; {{ $location ? $location->lockers->count() : '0' }} Open
+                Locker{{ $location ? ($location->lockers->count() > 1 ? 's' : '') : '' }} Available</p>
         </div>
         <div class="col-md-6">
             <div class="row sorted">
@@ -81,10 +82,13 @@
                         <div class="list-group-item list-group-item-action list-result">
                             <div class="d-flex w-100 justify-content-between">
                                 <h5 class="mb-1">{{ $locker['name'] }}</h5>
-                                <p class="text-muted">{{ $locker['description'] }}</p>
+                                <p class="text-muted text-description">{{ $locker['description'] }}</p>
                                 <p class="text-muted">N{{ $locker['price'] }} for the first rent </p>
                                 <p class="mb-1">{{ $locker['available'] }} available</p>
-                                <a href="{{ route('success') }}" target="_blank" class="btn btn-success btn-rent">Rent Now</a>
+                                <p>
+                                    <a href="{{ route('success') }}" target="_blank"
+                                        class="btn btn-success btn-rent">Rent Now</a>
+                                </p>
                             </div>
                         </div>
                     @endforeach
