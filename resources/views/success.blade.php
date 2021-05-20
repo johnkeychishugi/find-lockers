@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-        <h2 style="text-align: center;margin-top:100px">“navigation to the rentalpage is successful“</h2>
+        <h2 style="text-align: center;margin-top:100px">“navigation to the rental page is successful“</h2>
 </body>
 </html>
