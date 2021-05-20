@@ -84,7 +84,7 @@
                                 <p class="text-muted">{{ $locker['description'] }}</p>
                                 <p class="text-muted">N{{ $locker['price'] }} for the first rent </p>
                                 <p class="mb-1">{{ $locker['available'] }} available</p>
-                                <a href="" class="btn btn-success btn-rent">Rent Now</a>
+                                <a href="{{ route('success') }}" target="_blank" class="btn btn-success btn-rent">Rent Now</a>
                             </div>
                         </div>
                     @endforeach
