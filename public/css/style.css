@@ -145,9 +145,11 @@ body {
 }
 
 .load {
-    color: crimson;
+    color:#ED6F33;
     font-size: 20px;
     font-weight: bold;
+    text-align: center;
+    margin-right: 100px;
 }
 
 .second-box {
@@ -197,4 +199,29 @@ body {
     font-weight: bold;
     text-decoration: none;
     border-bottom: 1px solid #037AFB;
+  }
+
+  .list-result{
+      margin-bottom: 10px;
+      background-color: rgb(165 162 162 / 30%);
+      border-radius: 2px;
+  }
+
+  .btn-rent{
+    padding: 10px 30px 10px 30px;
+    border-radius: 0px
+  }
+
+  .list-result p,h5{
+       font-weight: bold;
+  }
+
+  .btw-view-location a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .btw-view-location span{
+      color: crimson;
+      font-size: 17px;
   }
